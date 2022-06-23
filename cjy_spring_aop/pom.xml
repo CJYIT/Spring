@@ -20,9 +20,9 @@
             <version>5.0.5.RELEASE</version>
         </dependency>
         <dependency>
-            <groupId>aspectj</groupId>
+            <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
-            <version>1.5.4</version>
+            <version>1.8.4</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

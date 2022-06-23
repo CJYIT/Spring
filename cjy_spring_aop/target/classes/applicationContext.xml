@@ -14,15 +14,20 @@
     <aop:config>
 <!--        声明切面-->
         <aop:aspect ref="MyAspet"><!--这句话配置后才能真正说明上面配置的切面MyAspet-->
+            <!--抽取切点表达式-->
+            <aop:pointcut id="myPointcut" expression="execution(* com.cjy.aop.*.*(..))"></aop:pointcut>
             <!--切面：切点+通知  当你去访问com.cjy.aop.Target.save()时，其要作一个前置增强，而这个前置增强的方法代码在MyAspet的before中-->
 <!--            aop:before增强的类型，增强是MyAspet切面内部的方法名，这里的方法名是before-->
 <!--            pointcut切点表达式的写法，这里只用了一个方法，通过一个表达式可以指定多个方法-->
 <!--            <aop:before method="before" pointcut="execution(public void com.cjy.aop.Target.save())"/>-->
-            <aop:before method="before" pointcut="execution(* com.cjy.aop.*.*(..))"/>
+            <!--<aop:before method="before" pointcut="execution(* com.cjy.aop.*.*(..))"/>
             <aop:after method="afterReturning" pointcut="execution(* com.cjy.aop.*.*(..))"/>
             <aop:around method="around" pointcut="execution(* com.cjy.aop.*.*(..))"/>
             <aop:after-throwing method="afterThrowing" pointcut="execution(* com.cjy.aop.*.*(..))"/>
-            <aop:after method="after" pointcut="execution(* com.cjy.aop.*.*(..))"/>
+            <aop:after method="after" pointcut="execution(* com.cjy.aop.*.*(..))"/>-->
+
+            <aop:around method="around" pointcut-ref="myPointcut"/>
+            <aop:after method="after" pointcut-ref="myPointcut"/>
         </aop:aspect>
     </aop:config>
 </beans>
