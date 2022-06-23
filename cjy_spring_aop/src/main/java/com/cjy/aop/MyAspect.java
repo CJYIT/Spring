@@ -22,5 +22,5 @@ public class MyAspect {
     }
     public void after(){
         System.out.println("最终增强..........");
-    }//不管抛不抛异常最终方法都会执行
+    }//不管抛不抛异常最终方法都会被执行
 }
