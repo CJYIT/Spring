@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/cjy_spring_aop/cjy_spring_aop.iml" filepath="$PROJECT_DIR$/cjy_spring_aop/cjy_spring_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjy_spring_ioc/cjy_spring_ioc.iml" filepath="$PROJECT_DIR$/cjy_spring_ioc/cjy_spring_ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjy_spring_ioc_anno/cjy_spring_ioc_anno.iml" filepath="$PROJECT_DIR$/cjy_spring_ioc_anno/cjy_spring_ioc_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cjy_spring_jdbc/cjy_spring_jdbc.iml" filepath="$PROJECT_DIR$/cjy_spring_jdbc/cjy_spring_jdbc.iml" />
     </modules>
   </component>
 </project>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cjy_spring_aop" />
         <module name="cjy_spring_ioc" />
+        <module name="cjy_spring_jdbc" />
         <module name="cjy_spring_ioc_anno" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="cjy_spring_aop" target="1.5" />
       <module name="cjy_spring_ioc" target="1.5" />
       <module name="cjy_spring_ioc_anno" target="1.5" />
+      <module name="cjy_spring_jdbc" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
