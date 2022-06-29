@@ -9,6 +9,7 @@
         <module name="cjy_spring_tx" />
         <module name="cjy_spring_tx_anno" />
         <module name="cjy_spring_ioc" />
+        <module name="cjy_spring_mvc" />
         <module name="cjy_spring_aop" />
         <module name="cjy_spring_jdbc" />
         <module name="cjy_spring_ioc_anno" />
@@ -19,6 +20,7 @@
       <module name="cjy_spring_ioc" target="1.5" />
       <module name="cjy_spring_ioc_anno" target="1.5" />
       <module name="cjy_spring_jdbc" target="1.5" />
+      <module name="cjy_spring_mvc" target="1.5" />
       <module name="cjy_spring_tx" target="1.5" />
       <module name="cjy_spring_tx_anno" target="1.5" />
     </bytecodeTargetLevel>
